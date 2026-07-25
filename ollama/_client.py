@@ -24,7 +24,7 @@ from typing import (
   overload,
 )
 
-import anyio
+import anyio  # type: ignore
 from pydantic.json_schema import JsonSchemaValue
 
 from ollama._utils import convert_function_to_tool
